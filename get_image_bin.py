@@ -35,7 +35,9 @@ def print_image() -> None:
     response = ""
     try:
         response = send_at_command("/dev/ttyUSB1", "AT!IMAGE?", 1)
-        print(response)
+        print(repr(response))
+        response = send_at_command("/dev/ttyUSB1", "AT!IMPREF?", 1)
+        print(repr(response))
     except Exception as e:
         print(
             f"Failed to retrieve FW version {response} - {e}"
