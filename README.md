@@ -8,9 +8,9 @@ you need to run it in VSCODE in debbug modem and set brick point for result argu
 this will provide you the actual value with raw values as "\r\n" values and correct whitspaces. 
 
 'AT!IMPREF?\r\r\n!IMPREF: \r\n preferred fw version:    02.33.03.00\r\n preferred carrier name:  GENERIC\r\n preferred config name:   GENERIC_002.072_001\r\n preferred subpri index:  000\r\n current fw version:      02.33.03.00\r\n current carrier name:    GENERIC\r\n current config name:     GENERIC_002.072_001\r\n current subpri index:    000\r\n\r\nOK\r\n'
-![image](https://github.com/elkanamol/Sierra_find_image_impref/assets/57934787/e6964c3b-ab2b-48e5-848e-31cda0d6cbea)
 
 
+![image](https://github.com/elkanamol/Sierra_find_image_impref/assets/57934787/4d082594-af8f-4aea-b074-3eacf72dad89)
 
 
 
